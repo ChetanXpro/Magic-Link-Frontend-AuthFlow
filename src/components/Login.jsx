@@ -33,7 +33,7 @@ const Login = () => {
   const { isLoading, isError, error, mutate } = useMutation(login, {
     onSuccess: (data) => {
      
-      console.log(data);
+
 
       toast({
         title: 'Link send to your mail',

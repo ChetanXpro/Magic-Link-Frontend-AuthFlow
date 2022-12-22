@@ -31,7 +31,7 @@ export const login = async (payload) => {
 export const signup = async (payload) => {
   try {
     const request = await apiInstance.post("/user", payload);
-    console.log(request);
+
     return request?.data;
   } catch (err) {
     const error = err

@@ -8,10 +8,7 @@ import useRefreshToken from "../hooks/useRefreshToken";
 const PersistLogin = () => {
   const [loading, setIsLoading] = useState(true);
   const refresh = useRefreshToken();
-  // const [searchParams, setSearchParams] = useSearchParams();
-  // const token = searchParams.get("token");
-  // console.log(token);
-  // localStorage.setItem("jwt", token);
+
   const { auth, setUser } = useAuth();
 
   useEffect(() => {

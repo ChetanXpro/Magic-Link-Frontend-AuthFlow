@@ -32,7 +32,7 @@ const Signup = () => {
         duration: 2000,
         isClosable: true,
       })
-   console.log(data)
+
       setSuccess(true)
       setTimeout(() => {
         

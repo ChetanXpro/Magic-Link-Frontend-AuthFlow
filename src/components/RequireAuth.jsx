@@ -25,7 +25,7 @@ const RequireAuth = () => {
 
   const decode = token ? decodeJwt(token) : null 
 
-  console.log(decode);
+
 
   return decode ? <Outlet /> : <Navigate to={"/sign_in"} />;
 };
