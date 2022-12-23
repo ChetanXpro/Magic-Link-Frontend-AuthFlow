@@ -3,7 +3,7 @@ import axios, { AxiosError } from "axios";
 // import useAuth from "./useAuth";
 // import useRefreshToken from "./useRefreshToken";
 
-const API_BASE_URL = "http://localhost:5000/";
+const API_BASE_URL = "https://fair-plum-barnacle-tie.cyclic.app/";
 export const apiInstance = axios.create({
   baseURL: API_BASE_URL,
   timeout: 10000,
